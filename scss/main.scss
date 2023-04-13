@@ -1,0 +1,72 @@
+// Импорт переменных
+@import "./abstracts/_variables.scss";
+
+// Импорт файла normalize (кроссбраузерность)
+@import "./base/_normalize.scss";
+
+// Импорт файла reset (сброс стандарт.стилей)
+@import "./base/_reset.scss";
+
+// Импорт стилей "о проекте"
+@import "./layout/_aboutExpertEase.scss";
+
+// Импорт стилей для footer
+@import "./layout/_footer.scss";
+
+// Импорт стилей для header
+@import "./layout/_header.scss";
+
+// Импорт стилей для основной страницы поиска
+@import "./layout/_inputPage.scss";
+
+// Импорт основных стилей сайта
+@import "./layout/_main.scss";
+
+// Импорт стилей для статистики экспертов
+@import "./layout/_topExperts.scss";
+
+// Стили для страницы about.php
+@import "./pages/_aboutCompany.scss";
+
+// Стили для страницы authorization.php
+@import "./pages/_authorizationExpertEase.scss";
+
+// Стили для страницы createATask.php
+@import "./pages/_createATask.scss";
+
+// Стили для страницы createNewPassword.php
+@import "./pages/_createNewPassword.scss";
+
+// Стили для страницы howItWorks.php
+@import "./pages/_howItWorks.scss";
+
+// Стили для страницы listOfServices.php
+@import "./pages/_listOfServices.scss";
+
+// Стили для страницы passwordRecovery.php
+@import "./pages/_passwordRecovery.scss";
+
+// Стили для страницы privacyPolicy.php
+@import "./pages/_privacyPolicy.scss";
+
+// Стили для страницы problemSolving.php
+@import "./pages/_problemSolving.scss";
+
+// Стили для страницы registration.php
+@import "./pages/_registrationExpertEase.scss";
+
+// Стили для страницы reportAnError.php
+@import "./pages/_ReportAnError.scss";
+
+// Стили для страницы securityPolicy.php
+@import "./pages/_securityPolicy.scss";
+
+// Стили для страницы termsOfUse.php
+@import "./pages/_termsOfUse.scss";
+
+// Стили для страницы topExperts.php
+@import "./pages/_topExperts.scss";
+
+// Стили для страницы workingWithPartners.php
+@import "./pages/_workingWithPartners.scss";
+

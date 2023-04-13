@@ -1,0 +1,99 @@
+.workingWithPartners {
+    position: relative;
+    min-height: 1382px;
+    background: #F7F6FF;
+    &__title {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    &__infoPartners {
+        text-align: left;
+    }
+}
+
+.user-menu {
+    &__list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    &__list-item {
+        position: relative;
+        margin: 0px 25px 0px 0px;
+        font-size: 18px;
+        &:last-child {
+            margin: 0px 0px 0px 0px;
+        }
+    }
+    &__item {
+        display: inline-block;
+        text-decoration: none;
+        line-height: 1;
+        color: $color-black;
+    }
+    &__sublist {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+.user-menu__list-item.active .user-menu__sublist {
+    display: block;
+    padding: 6px 0px 0px 0px;
+}
+
+.sublist {
+    font-size: 16px;
+    line-height: 20px;
+    color: $color-black;
+}
+
+.sublist-exit {
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF4343;
+    background: #ffffff;
+}
+
+.workingWithPartnersTitle {
+    padding: 32px 0px 0px 0px;
+    margin: 0px 0px 26px 0px;
+    line-height: 34px;
+    font-size: 38px;
+    letter-spacing: 0.2px;
+    color: $color-black;
+}
+
+.workingWithPartnersParagraph {
+    font-size: 17px;
+    line-height: 28px;
+    color: $color-black;
+}
+
+.img {
+    display: block;
+	max-width: 100%;
+	height: auto;
+}

@@ -1,0 +1,22 @@
+// Основная стилизация всего проекта
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+// Основные стили для html и body
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: $color-white;
+}
+
+// Контейнер для контента
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}

@@ -1,0 +1,145 @@
+.aboutExpertEase {
+    position: relative;
+    min-height: 470px;
+    margin: 0px 0px 16px 0px;
+    &__title {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    &__cards-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    &__cards-item {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.cards-item {
+    &__text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 18px;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+    }
+}
+
+.title {
+    line-height: 34px;
+    font-size: 32px;
+    letter-spacing: .2px;
+    color: #222;
+    margin: 0px 0px 35px 0px;
+}
+
+.green-card-l {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 340px;
+    height: 350px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(226, 244, 212, 0.4)), to(white));
+    background: -o-linear-gradient(left, rgba(226, 244, 212, 0.4), white);
+    background: linear-gradient(to right, rgba(226, 244, 212, 0.4), white);
+    border-radius: 16px;
+}
+
+.green-card-c {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 340px;
+    height: 350px;
+    border-radius: 16px;
+}
+
+.green-card-r {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 340px;
+    height: 350px;
+    background: -webkit-gradient(linear, right top, left top, from(rgba(226, 244, 212, 0.4)), to(white));
+    background: -o-linear-gradient(right, rgba(226, 244, 212, 0.4), white);
+    background: linear-gradient(to left, rgba(226, 244, 212, 0.4), white);
+    border-radius: 16px;
+}
+
+.infoExpertEase {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .2px;
+    color: #222222;
+}
